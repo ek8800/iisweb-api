@@ -8,4 +8,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar",  "webAPI-0.0.1-SNAPSHOT.jar"] 
-CMD ["iisurl=http://127.0.0.1:8080", "php_10_pgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
+CMD ["php_10_pgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
