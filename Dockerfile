@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk-focal
 
-ADD heroku-demo-0.0.1-SNAPSHOT.jar heroku-demo-0.0.1-SNAPSHOT.jar
+ADD webAPI-0.0.1-SNAPSHOT.jar webAPI-0.0.1-SNAPSHOT.jar
 
 ENV TZ=America/New_York
 #ENV TZ=EST
