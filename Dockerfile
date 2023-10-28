@@ -10,4 +10,4 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar",  "webAPI-0.0.1-SNAPSHOT.jar"] 
 #CMD ["iisurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "timerurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "php_10_pgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
 #CMD ["iisurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "timerurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "php_12_pgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
-CMD ["iisurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "timerurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "directpgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
+CMD ["iisurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "timerurl=https://app-35724574-22ce-49ad-8842-9f24263ba57d.cleverapps.io", "php_13_pgsqlflag", "mydebugtestflag", "logRemoteDBflag"] 
